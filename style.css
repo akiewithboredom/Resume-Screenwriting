@@ -1,0 +1,208 @@
+body, html {
+    margin: 0;
+    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the body takes the full viewport height */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+li {
+    display: inline-block; /* Display items in a row */
+    position: relative;
+    padding: 15px 0;
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+/* Added styles for film info */
+.film-info {
+    text-align: center;
+}
+
+.film-info h1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    position: relative;
+}
+
+.film-info p {
+    font-size: 15px; /* Make font size smaller */
+    margin: 10px 0; /* Adjust margins */
+    text-decoration: none;
+    letter-spacing: 0.09em;
+    position: relative;
+    margin-bottom: 20px;
+    max-width: 750px; 
+    color: #fff;
+}
+
+.film-info a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.film-info a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.film-info a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+/* Added styles for about me */
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    position: relative;
+}
+
+.about p {
+    font-size: 15px; /* Make font size smaller */
+    margin: 10px 0; /* Adjust margins */
+    text-decoration: none;
+    letter-spacing: 0.09em;
+    position: relative;
+    margin-bottom: 20px;
+    max-width: 750px; 
+    color: #fff;
+    text-align: left;
+}
+
+.about a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.about a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.about a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+/* Added styles for contact list */
+#contact {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#contact li {
+    display: block;
+    position: relative;
+    padding: 15px 0;
+}
+
+#contact a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+#contact a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+#contact a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
